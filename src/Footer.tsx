@@ -27,9 +27,8 @@ export default function Footer() {
                 <div className="footer-section">
                     <h4>Conectează-te cu noi</h4>
                     <div className="social-links">
-                        <a href="#" aria-label="Facebook">Facebook</a>
-                        <a href="#" aria-label="Instagram">Instagram</a>
-                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="https://www.facebook.com/sportt.n.joy" aria-label="Facebook">Facebook</a>
+                        <a href="https://www.instagram.com/sport.n.joy/" aria-label="Instagram">Instagram</a>
                     </div>
                 </div>
             </div>

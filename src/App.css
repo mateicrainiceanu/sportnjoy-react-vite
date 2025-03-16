@@ -30,22 +30,44 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #e95e46;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.custom-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+.nav-social-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-social-links a {
+  color: #e95e46;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-social-links a:hover {
+  color: #cf2e2e;
+  transform: translateY(-2px);
 }
 
 .nav-links a {
