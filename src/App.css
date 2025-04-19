@@ -72,9 +72,13 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #000000;
+  color:#000000;
   font-weight: 500;
   transition: color 0.3s ease;
+}
+
+.nav-links .color-white{
+  color: #ffffff;
 }
 
 .nav-links a:hover {
@@ -99,7 +103,7 @@ body {
 }
 
 .btn-primary:hover {
-  background: #ffffff;
+  background: transparent;
   color: #e95e46;
   border: 2px solid #e95e46;
 }
