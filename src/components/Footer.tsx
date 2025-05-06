@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
         
         <div className="footer-bottom">
-          <p className="copyright">&copy; 2024 Sport n'JOY. Toate drepturile rezervate.</p>
+          <p className="copyright">&copy; {new Date().getFullYear()} Sport n'JOY. Toate drepturile rezervate.</p>
           <p className="designer-credit">© Design by Burghiu Matei</p>
         </div>
       </div>
