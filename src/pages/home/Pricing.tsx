@@ -17,7 +17,7 @@ function Pricing() {
                             <li>Acces la vestiar</li>
                             <li>Program flexibil</li>
                         </ul>
-                        <a href="instructions.html" className="btn btn-primary">Începe acum</a>
+                        <a href="instructions" className="btn btn-primary">Începe acum</a>
                     </div>
                     <div className="pricing-card featured">
                         <h3>FITNESS GROUP</h3>
@@ -28,7 +28,7 @@ function Pricing() {
                             <li>Toate echipamentele disponibile</li>
                             <li>Acces la vestiar</li>
                         </ul>
-                        <a href="instructions.html" className="btn btn-primary">Începe acum</a>
+                        <a href="instructions" className="btn btn-primary">Începe acum</a>
                     </div>
                     <div className="pricing-card">
                         <h3>PERSONAL TRAINING</h3>
@@ -39,7 +39,7 @@ function Pricing() {
                             <li>Plan de antrenament personalizat</li>
                             <li>Ghidare nutrițională</li>
                         </ul>
-                        <a href="instructions.html" className="btn btn-primary">Începe acum</a>
+                        <a href="instructions" className="btn btn-primary">Începe acum</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ function Pricing() {
                             <li>Acces la vestiar</li>
                             <li>Pas pentru o zi</li>
                         </ul>
-                        <a href="instructions.html" className="btn btn-primary">Începe acum</a>
+                        <a href="instructions" className="btn btn-primary">Începe acum</a>
                     </div>
                     <div className="pricing-card">
                         <h3>ONE DAY FITNESS GROUP</h3>
@@ -67,7 +67,7 @@ function Pricing() {
                             <li>Toate echipamentele disponibile</li>
                             <li>Acces la vestiar</li>
                         </ul>
-                        <a href="instructions.html" className="btn btn-primary">Începe acum</a>
+                        <a href="instructions" className="btn btn-primary">Începe acum</a>
                     </div>
                 </div>
             </div>

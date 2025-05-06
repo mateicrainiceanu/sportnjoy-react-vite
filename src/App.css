@@ -306,8 +306,10 @@ body {
 }
 
 .pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  /*grid-template-columns: repeat(3, 1fr);*/
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -320,6 +322,7 @@ body {
 }
 
 .pricing-card {
+  min-width: 350px;
   background: white;
   padding: 2rem;
   border-radius: 10px;
