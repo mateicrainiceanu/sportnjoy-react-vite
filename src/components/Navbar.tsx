@@ -1,5 +1,7 @@
 import {FaFacebook, FaInstagram} from "react-icons/fa";
+import { IoMdMenu, IoIosClose } from "react-icons/io";
 import NavItem from "./NavItem";
+import {useState} from "react";
 
 export enum NavType {
 	TEXT,
@@ -8,6 +10,9 @@ export enum NavType {
 }
 
 function Navbar() {
+
+	const [isOpen, setIsOpen] = useState(false);
+
 	const pathname = window.location.pathname;
 
 	const navs = [
@@ -63,6 +68,10 @@ function Navbar() {
 		},
 	];
 
+	function toggleMenu() {
+		setIsOpen(val => !val);
+	}
+
 	return (
 		<div>
 			<nav className="navbar">
@@ -79,8 +88,13 @@ function Navbar() {
 					<div className="nav-links">
 						{navs.filter(item => item.show).map((nav, idx) => <NavItem key={idx} nav={nav} />)}
 					</div>
-					<button className="mobile-menu-btn">
-						<span className="menu-icon"></span>
+					{isOpen && <div className="nav-links-mobile">
+						{navs.filter(item => item.show).map((nav, idx) => <NavItem key={idx} nav={nav}/>)}
+					</div>}
+					<button className="mobile-menu-btn" onClick={toggleMenu}>
+						{!isOpen ?
+							<IoMdMenu size={24}/> :
+							<IoIosClose size={30}/>}
 					</button>
 				</div>
 			</nav>
